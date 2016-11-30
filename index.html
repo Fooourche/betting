@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Timeline JS Example</title>
+    <meta charset="utf-8">
+    <meta name="description" content="TimelineJS example">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- Style-->
+    <style>
+      html, body {
+       height:100%;
+       padding: 0px;
+       margin: 0px;
+      }
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML elements-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+  </head>
+</html>
+<body>
+  <!-- BEGIN Timeline Embed -->
+  <div id="chart266c1b912c18"></div>
+  <script type="text/javascript">
+var dataObject = {
+ "dom": "chart266c1b912c18",
+"width":    800,
+"height":    400,
+"timeline": {
+ "headline": "R Release History 1997-2013",
+"type": "default",
+"text": "R is amazing.  Here is how it got that way.  Thanks to all the prolific contributors.\n  Thanks Ramnath Vaidyanathan for <a href ='http://rcharts.io/site)'>rCharts</a> especially\n  his <a href='http://ramnathv.github.io/sachin100s/'>timeline</a> which provided the code to generate all of this in R.",
+"startDate": "1997,04,23",
+"asset": {
+ "media": "http://r-project.org" 
+} 
+},
+"id": "chart266c1b912c18" 
+};
+var timeline_config = {
+ "source": "dataObject",
+"font": "Merriweather-Newscycle",
+"embed_id": "chart266c1b912c18" 
+}
+timeline_config.source = eval(timeline_config.source)
+</script>
+  <!-- END Timeline Embed-->
+  <script src='C:/Users/Che Bureau/Documents/04_Boulot/R-3.2.2/library/rCharts/libraries/timeline/js/storyjs-embed.js' type='text/javascript'></script>
+</body>
